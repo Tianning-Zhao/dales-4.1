@@ -1,0 +1,499 @@
+The system is: Linux - 3.10.0-1127.18.2.el7.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90 
+Build flags: -finit-real=nan;-fdefault-real-8;-ffree-line-length-none;
+Id flags: -v 
+
+The output was:
+0
+Driving: /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran -finit-real=nan -fdefault-real-8 -ffree-line-length-none -v CMakeFortranCompilerId.F -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -pthread -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/usr/lib64 -Wl,-rpath -Wl,/usr/lib64 -Wl,-rpath -Wl,/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -Wl,--enable-new-dtags -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran
+COLLECT_LTO_WRAPPER=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --program-prefix= --exec-prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --bindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin --sbindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/sbin --sysconfdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/etc --datadir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share --includedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include --libdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 --libexecdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/libexec --localstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var --sharedstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var/lib --mandir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/man --infodir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/info
+Thread model: posix
+gcc version 7.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccioEOIL.f90 -quiet -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -iprefix /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/ -D_REENTRANT CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -finit-real=nan -fdefault-real-8 -ffree-line-length-none -fintrinsic-modules-path /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude -o /tmp/ccdBUEUk.s
+GNU Fortran (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"
+ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed"
+ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include"
+ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/Help/include"
+ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include
+ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude
+ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include
+ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include
+ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include
+ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include
+ /n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include
+ /n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include
+ /n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include
+ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include
+ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include
+ /n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include
+ /n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include
+ /n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include
+ /n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include
+ /n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include
+ /n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include
+ /n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include
+ /n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include
+ /n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include
+ /n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include
+ /n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed
+ /usr/local/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../include
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --64 -o /tmp/ccuKjvkU.o /tmp/ccdBUEUk.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-43.base.el7_8.1
+Reading specs from /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/
+LIBRARY_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/:/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib/:/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/:/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 -plugin /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/liblto_plugin.so -plugin-opt=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp2KhOt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib/../lib64/crt1.o /lib/../lib64/crti.o /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/usr/lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib -L/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. /tmp/ccuKjvkU.o -rpath /usr/lib64 -rpath /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/n/home09/tianningz/dales-4.1/CMakeFiles/3.17.3/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7abe1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7abe1.dir/build.make CMakeFiles/cmTC_7abe1.dir/build
+gmake[1]: Entering directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_7abe1.dir/testFortranCompiler.f.o
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90   -finit-real=nan -fdefault-real-8 -ffree-line-length-none     -c /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_7abe1.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_7abe1
+/n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abe1.dir/link.txt --verbose=1
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90  -L${NETCDF_LIB}  -finit-real=nan -fdefault-real-8 -ffree-line-length-none   CMakeFiles/cmTC_7abe1.dir/testFortranCompiler.f.o  -o cmTC_7abe1 
+gmake[1]: Leaving directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b6c53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c53.dir/build.make CMakeFiles/cmTC_b6c53.dir/build
+gmake[1]: Entering directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90   -finit-real=nan -fdefault-real-8 -ffree-line-length-none     -v -c /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o
+Using built-in specs.
+COLLECT_GCC=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --program-prefix= --exec-prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --bindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin --sbindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/sbin --sysconfdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/etc --datadir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share --includedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include --libdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 --libexecdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/libexec --localstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var --sharedstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var/lib --mandir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/man --infodir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/info
+Thread model: posix
+gcc version 7.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64'
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/f951 /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccV7A09P.f90 -quiet -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -iprefix /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/ -D_REENTRANT /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -version -finit-real=nan -fdefault-real-8 -ffree-line-length-none -fintrinsic-modules-path /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude -o /tmp/ccAMHmEv.s
+GNU Fortran (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"
+ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed"
+ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include"
+ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/Help/include"
+ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include
+ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude
+ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include
+ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include
+ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include
+ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include
+ /n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include
+ /n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include
+ /n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include
+ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include
+ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include
+ /n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include
+ /n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include
+ /n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include
+ /n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include
+ /n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include
+ /n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include
+ /n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include
+ /n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include
+ /n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include
+ /n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include
+ /n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed
+ /usr/local/include
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../include
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 7.1.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64'
+ as -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --64 -o CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o /tmp/ccAMHmEv.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-43.base.el7_8.1
+COMPILER_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/
+LIBRARY_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/:/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib/:/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/:/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_b6c53
+/n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c53.dir/link.txt --verbose=1
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90  -L${NETCDF_LIB} -v -finit-real=nan -fdefault-real-8 -ffree-line-length-none   CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b6c53 
+Driving: /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran -L${NETCDF_LIB} -v -finit-real=nan -fdefault-real-8 -ffree-line-length-none CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -o cmTC_b6c53 -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -pthread -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/usr/lib64 -Wl,-rpath -Wl,/usr/lib64 -Wl,-rpath -Wl,/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -Wl,--enable-new-dtags -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran
+COLLECT_LTO_WRAPPER=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --program-prefix= --exec-prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --bindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin --sbindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/sbin --sysconfdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/etc --datadir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share --includedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include --libdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 --libexecdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/libexec --localstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var --sharedstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var/lib --mandir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/man --infodir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/info
+Thread model: posix
+gcc version 7.1.0 (GCC) 
+Reading specs from /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-L${NETCDF_LIB}' '-v' '-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-o' 'cmTC_b6c53' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/
+LIBRARY_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/:/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib/:/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/:/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L${NETCDF_LIB}' '-v' '-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-o' 'cmTC_b6c53' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 -plugin /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/liblto_plugin.so -plugin-opt=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqLqBER.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6c53 /lib/../lib64/crt1.o /lib/../lib64/crti.o /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L${NETCDF_LIB} -L/usr/lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib -L/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -rpath /usr/lib64 -rpath /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-L${NETCDF_LIB}' '-v' '-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-o' 'cmTC_b6c53' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+    add: [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude]
+    add: [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include]
+    add: [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include]
+    add: [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include]
+    add: [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include]
+    add: [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include]
+    add: [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include]
+    add: [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include]
+    add: [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include]
+    add: [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include]
+    add: [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include]
+    add: [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include]
+    add: [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include]
+    add: [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include]
+    add: [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include]
+    add: [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include]
+    add: [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include] ==> [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+  collapse include dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude]
+  collapse include dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include] ==> [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include]
+  collapse include dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include] ==> [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include] ==> [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include] ==> [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include] ==> [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include] ==> [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include] ==> [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include] ==> [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include] ==> [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include] ==> [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include]
+  collapse include dir [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include] ==> [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include]
+  collapse include dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include]
+  collapse include dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../include] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include;/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude;/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include;/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include;/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include;/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include;/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include;/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include;/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include;/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include;/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include;/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include;/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include;/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include;/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include;/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include;/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include;/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include;/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include;/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include;/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include;/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed;/usr/local/include;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b6c53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c53.dir/build.make CMakeFiles/cmTC_b6c53.dir/build]
+  ignore line: [gmake[1]: Entering directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90   -finit-real=nan -fdefault-real-8 -ffree-line-length-none     -v -c /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --program-prefix= --exec-prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --bindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin --sbindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/sbin --sysconfdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/etc --datadir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share --includedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include --libdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 --libexecdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/libexec --localstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var --sharedstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var/lib --mandir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/man --infodir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/info]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/f951 /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccV7A09P.f90 -quiet -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -iprefix /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/ -D_REENTRANT /n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -version -finit-real=nan -fdefault-real-8 -ffree-line-length-none -fintrinsic-modules-path /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude -o /tmp/ccAMHmEv.s]
+  ignore line: [GNU Fortran (GCC) version 7.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.1.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"]
+  ignore line: [ignoring duplicate directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include"]
+  ignore line: [ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/Help/include"]
+  ignore line: [ignoring nonexistent directory "/n/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/share/cmake-3.16/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+  ignore line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/finclude]
+  ignore line: [ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/include]
+  ignore line: [ /n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/plugin/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0/install-tools/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/library/Matrix/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/szip/2.1-fasrc02/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/include]
+  ignore line: [ /n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/include]
+  ignore line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include]
+  ignore line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.1.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -I /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --64 -o CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o /tmp/ccAMHmEv.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-43.base.el7_8.1]
+  ignore line: [COMPILER_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/:/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib/:/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/:/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-v' '-c' '-o' 'CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_b6c53]
+  ignore line: [/n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c53.dir/link.txt --verbose=1]
+  ignore line: [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90  -L${NETCDF_LIB} -v -finit-real=nan -fdefault-real-8 -ffree-line-length-none   CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b6c53 ]
+  ignore line: [Driving: /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran -L${NETCDF_LIB} -v -finit-real=nan -fdefault-real-8 -ffree-line-length-none CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -o cmTC_b6c53 -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include -pthread -I/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/usr/lib64 -Wl -rpath -Wl /usr/lib64 -Wl -rpath -Wl /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -Wl --enable-new-dtags -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --program-prefix= --exec-prefix=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01 --bindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin --sbindir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/sbin --sysconfdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/etc --datadir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share --includedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/include --libdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 --libexecdir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/libexec --localstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var --sharedstatedir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/var/lib --mandir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/man --infodir=/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/share/info]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.0 (GCC) ]
+  ignore line: [Reading specs from /n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-L${NETCDF_LIB}' '-v' '-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-o' 'cmTC_b6c53' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/:/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib/:/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/:/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/:/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib/:/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/:/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib/:/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/:/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib/:/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib/:/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib/:/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/:/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib/:/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/:/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/:/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/:/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L${NETCDF_LIB}' '-v' '-finit-real=nan' '-fdefault-real-8' '-ffree-line-length-none' '-o' 'cmTC_b6c53' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/include' '-pthread' '-I' '/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-L/usr/lib64' '-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 -plugin /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/liblto_plugin.so -plugin-opt=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqLqBER.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6c53 /lib/../lib64/crt1.o /lib/../lib64/crti.o /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L${NETCDF_LIB} -L/usr/lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64 -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64 -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64 -L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib -L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib -L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib -L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib -L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib -L/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib -L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib -L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64 -L/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib -L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64 -L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64 -L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64 -L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o -rpath /usr/lib64 -rpath /n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64 --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqLqBER.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6c53] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o] ==> ignore
+    arg [-L${NETCDF_LIB}] ==> ignore
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+    arg [-L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0] ==> dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0]
+    arg [-L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc] ==> dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc]
+    arg [-L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64] ==> dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64] ==> dir [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64] ==> dir [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64]
+    arg [-L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64] ==> dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64] ==> dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64]
+    arg [-L/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib] ==> dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib]
+    arg [-L/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib] ==> dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib]
+    arg [-L/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64] ==> dir [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib] ==> dir [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib]
+    arg [-L/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64] ==> dir [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib] ==> dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib]
+    arg [-L/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib] ==> dir [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib]
+    arg [-L/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib] ==> dir [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib]
+    arg [-L/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib] ==> dir [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib]
+    arg [-L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib] ==> dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib]
+    arg [-L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib] ==> dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib]
+    arg [-L/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib] ==> dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib]
+    arg [-L/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64] ==> dir [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib] ==> dir [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib]
+    arg [-L/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64] ==> dir [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64]
+    arg [-L/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64] ==> dir [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64]
+    arg [-L/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../..] ==> dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../..]
+    arg [CMakeFiles/cmTC_b6c53.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/usr/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+    arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+    arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+  collapse library dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0]
+  collapse library dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc]
+  collapse library dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64/../lib64] ==> [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib/../lib64] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib/../lib64] ==> [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64/../lib64] ==> [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64] ==> [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64]
+  collapse library dir [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib] ==> [/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib]
+  collapse library dir [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib] ==> [/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64] ==> [/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib] ==> [/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64] ==> [/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib] ==> [/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib] ==> [/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib] ==> [/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib] ==> [/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib] ==> [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib] ==> [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib] ==> [/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64] ==> [/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib] ==> [/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib]
+  collapse library dir [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64] ==> [/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64]
+  collapse library dir [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64] ==> [/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64]
+  collapse library dir [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/bin/../lib64/gcc/x86_64-pc-linux-gnu/7.1.0/../../..] ==> [/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64]
+  implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib64;/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/lib64;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc/x86_64-pc-linux-gnu/7.1.0;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64/gcc;/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/hdf5/1.8.12-fasrc12/lib64;/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64;/n/helmod/apps/centos7/Core/libxml2/2.7.8-fasrc02/lib64;/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib64;/n/helmod/apps/centos7/Core/gsl/1.16-fasrc02/lib64;/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64;/n/helmod/apps/centos7/Core/libtiff/4.0.9-fasrc01/lib64;/n/helmod/apps/centos7/Core/xz/5.2.2-fasrc01/lib64;/n/helmod/apps/centos7/Core/szip/2.1-fasrc02/lib64;/n/helmod/apps/centos7/Core/mpc/1.0.3-fasrc06/lib64;/n/helmod/apps/centos7/Core/mpfr/3.1.5-fasrc01/lib64;/n/helmod/apps/centos7/Core/gmp/6.1.2-fasrc01/lib64;/n/sw/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib64;/lib64;/n/helmod/apps/centos7/MPI/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/netcdf/4.1.3-fasrc02/lib;/n/helmod/apps/centos7/Core/gcc/7.1.0-fasrc01/lib;/n/helmod/apps/centos7/Core/nlopt/2.4.2-fasrc01/lib;/n/helmod/apps/centos7/Core/R_core/3.4.2-fasrc01/lib64/R/lib;/n/helmod/apps/centos7/Core/pcre/8.37-fasrc02/lib;/n/helmod/apps/centos7/Core/bzip2/1.0.6-fasrc01/lib;/n/helmod/apps/centos7/Core/curl/7.45.0-fasrc01/lib;/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/jre/lib;/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/db/lib;/n/helmod/apps/centos7/Core/jdk/1.8.0_45-fasrc01/lib;/n/helmod/apps/centos7/Core/zlib/1.2.8-fasrc07/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f084f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f084f.dir/build.make CMakeFiles/cmTC_f084f.dir/build
+gmake[1]: Entering directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_f084f.dir/testFortranCompilerF90.f90.o
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90   -finit-real=nan -fdefault-real-8 -ffree-line-length-none     -c /n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_f084f.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_f084f
+/n/sw/helmod/apps/centos7/Core/cmake/3.17.3-fasrc01/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f084f.dir/link.txt --verbose=1
+/n/helmod/apps/centos7/Comp/gcc/7.1.0-fasrc01/openmpi/3.1.3-fasrc01/bin/mpif90  -L${NETCDF_LIB}  -finit-real=nan -fdefault-real-8 -ffree-line-length-none   CMakeFiles/cmTC_f084f.dir/testFortranCompilerF90.f90.o  -o cmTC_f084f 
+gmake[1]: Leaving directory `/n/home09/tianningz/dales-4.1/CMakeFiles/CMakeTmp'
+
+
+
