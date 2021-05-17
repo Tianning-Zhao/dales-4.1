@@ -6,7 +6,7 @@
 #SBATCH -e errorfile.002
 #SBATCH -o errorfile.002
 #SBATCH --mem-per-cpu=2000 #Memory per cpu
-iexpnr=001
+iexpnr=002
 SLURM_NTASKS = 50
 
 workdir=`pwd`
